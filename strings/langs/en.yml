@@ -247,9 +247,9 @@ stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "🗑 Close"
-CLOSEMENU_BUTTON  : "🗑 Close Menu"
-BACK_BUTTON : "⬅ Back"
+CLOSE_BUTTON  : "𝗖𝗟𝗢𝗦𝗘"
+CLOSEMENU_BUTTON  : "𝗖𝗟𝗢𝗦𝗘"
+BACK_BUTTON : "𝗕𝗔𝗖𝗞"
 UNBAN_BUTTON : "🗑 Unban Assistant"
 
 #Lyrics
@@ -260,10 +260,10 @@ S_B_1 : "🗒 Commands"
 S_B_2 : "🔧 Settings"
 S_B_3 : "📨 Support"
 S_B_4 : "📨 Channel"
-S_B_5 : "✚ Add me to your Group"
+S_B_5 : "𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣"
 S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Bot Owner"
-S_B_8 : "🔎 How to Use? Commands Menu."
+S_B_7 : "𝗢𝗪𝗡𝗘𝗥"
+S_B_8 : "𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦"
 
 #Help 
 H_B_1 : "𝗔𝗗𝗠𝗜𝗡"
