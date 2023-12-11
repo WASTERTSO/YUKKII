@@ -267,12 +267,12 @@ S_B_8 : "👀 𝖸𝗈𝗎𝖳𝗎𝖻𝖾 👀"
 S_B_9 : "🥀 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🥀"
 
 #Help 
-H_B_1 : "Admin Commands"
-H_B_2 : "Play Commands"
-H_B_3 : "Bot Commands"
-H_B_4 : "Extra Commands"
-H_B_5 : "Close Menu"
-H_B_6 : "SudoUser Commands"
+H_B_1 : "𝗔𝗗𝗠𝗜𝗡"
+H_B_2 : "𝗣𝗟𝗔𝗬"
+H_B_3 : "𝗕𝗢𝗧"
+H_B_4 : "𝗘𝗫𝗧𝗥𝗔"
+H_B_5 : "𝗖𝗟𝗢𝗦𝗘"
+H_B_6 : "𝗦𝗨𝗗𝗢"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
