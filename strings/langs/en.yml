@@ -84,10 +84,10 @@ admin_34 : "Failed to seek the current stream."
 # Bot 
 
 # Start
-start_1 : "Thanks for having me in {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
+start_1 : "◎ ᴛʜᴀɴᴋs ғᴏʀ ʜᴀᴠɪɴɢ ᴍᴇ ɪɴ  {0}.\n{1} ɪs ᴀʟɪᴠᴇ.\n\n◎ ғᴏʀ ᴀɴʏ ᴀssɪsᴛᴀɴᴄᴇ ᴏʀ ʜᴇʟᴘ ᴄʜᴇᴄᴋᴏᴜᴛ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ."
 start_2 : "ʜᴇʏ, ✨ ɪ'ᴍ {0}.\n\n◦ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs ♪\n\n◉ ɴᴏᴡ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ʟɪsᴛᴇɴ ʟᴀɢ ғʀᴇᴇ ᴍᴜsɪᴄ [ɴᴏ ᴀᴅs]"
-start_3 : "Welcome To {0}\n\nI don't need any **admin permission** to work ( until asked for ).\n\nAssistant Username:- @{1}\nAssistant ID:- {2}"
-start_4 : "{0}'s Owner[{1}] has just joined your chat."
+start_3 : "ʜᴇʏ, ✨ ɪ'ᴍ {0}\n\n◎ ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ᴛᴏ **ʏᴏᴜ ɢʀᴏᴜᴘ** 🫰\n\n◎ ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀɴᴀᴍᴇ ≽ @{1}\n◎ ᴀssɪsᴛᴀɴᴛ ɪᴅ ≽ {2}"
+start_4 : "{0}' ᴏᴡɴᴇʀ {1} ʜᴀs ᴊᴜsᴛ ᴊᴏɪɴᴇᴅ ʏᴏᴜ ᴄʜᴀᴛ."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
 start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** to **supergroup** and then add me back.\n\n**How to make supergroup?**\n✅ Make your group's chat history **visible** once."
 start_7 : "**Blacklisted Chat**\n\nYou're chat has been blacklisted by the Bot. Please ask any SudoUser to whitelist chat first. Check [Sudolist from here]({0})"
@@ -239,7 +239,7 @@ queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
-stream_1 : "🎥 **◎ sᴛʀᴇᴀᴍɪɴɢ sᴛᴀʀᴛᴇᴅ** 📀\n\n🎧**◎ ʀᴇϙᴜᴇsᴛᴇᴅ ʙʏ⇁** {0}\n🛰**◎ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ⇁ **[ʜᴇʀᴇ]({1})"
+stream_1 : "⤷ **sᴛʀᴇᴀᴍɪɴɢ sᴛᴀʀᴛᴇᴅ** ≽\n\n⦿**ʀᴇϙᴜᴇsᴛᴇᴅ ʙʏ⇁** {0}\n⤷**ɪɴғᴏʀᴍᴀᴛɪᴏɴ 🍷⇁**[ʜᴇʀᴇ]({1})"
 stream_2 : "📡 **Started Streaming via URL ** 💡\n\n👤**Requested By:** {0}"
 stream_3 : "📡 **Started Streaming** 💡\n\n**🏷Title:** {0}\n⌛️**Duration**: {1}\n👤**Requested By:** {2}"
 stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️**Duration**: {2}\n👤**Requested By:** {3}"
@@ -298,13 +298,13 @@ PL_B_10 : "🏘 Play Group's Top 10 Tracks"
 PL_B_11 : "👤 Play Personal Top 10 Tracks"
 
 #Settings
-ST_B_1 : "🔊 Aud Quality"
-ST_B_2 : "🎥 Vid Quality"
-ST_B_3 : "🎩 Auth Users"
+ST_B_1 : "ᴀᴜᴅɪᴏ ϙᴜᴀʟɪᴛʏ 🔊"
+ST_B_2 : "ᴠɪᴅᴇᴏ ϙᴜᴀʟɪᴛʏ 🎥"
+ST_B_3 : "ᴀᴜᴛʜ ᴜsᴇʀs 👨‍💻"
 ST_B_4 : "📱 Dashboard"
-ST_B_5 : "▶️ Play Mode"
-ST_B_6 : "🏳️‍🌈 Language"
-ST_B_7 : "🔄 Clean Mode"
+ST_B_5 : "ᴘʟᴀʏ ᴍᴏᴅᴇ ▶️"
+ST_B_6 : "ʟᴀɴɢᴜᴀɢᴇ 🇱🇷"
+ST_B_7 : "ᴄʟᴇᴀɴ ᴍᴏᴅᴇ 🗑"
 ST_B_8 : "{0} LOW AudioQuality"
 ST_B_9 : "{0} MEDIUM AudioQuality"
 ST_B_10 : "{0} HIGH AudioQuality"
