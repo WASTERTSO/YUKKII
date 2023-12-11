@@ -62,16 +62,18 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_5"], url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                text=_["S_B_8"], callback_data="settings_back_helper"
             )
         ]
     ]
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"
+                InlineKeyboardButton(
+                    text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"
                 ),
-                InlineKeyboardButton(text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
+                InlineKeyboardButton(
+                    text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
                 ),
             ]
         )
@@ -95,16 +97,17 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons.append(
         [
             InlineKeyboardButton(
-                text=_["S_B_8"], callback_data="settings_back_helper"
-                
+                text=_["S_B_5"],
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ]
     )
-    if SUPPORT_GROUP and SUPPORT_CHANNEL:
+    if GITHUB_REPO and OWNER:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_7"], url=f"{SUPPORT_GROUP}"
-                InlineKeyboardButton(text=_["S_B_6"], url=f"{SUPPORT_CHANNEL}"
+                InlineKeyboardButton(text=_["S_B_7"], user_id=OWNER),
+                InlineKeyboardButton(
+                    text=_["S_B_6"], url=f"{GITHUB_REPO}"
                 ),
             ]
         )
@@ -122,5 +125,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 [
                     InlineKeyboardButton(
                         text=_["S_B_7"], user_id=OWNER
+                    ),
+                ]
+            )
+    buttons.append(
+        [InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG")]
     )
     return buttons
