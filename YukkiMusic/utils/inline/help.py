@@ -23,9 +23,7 @@ def help_pannel(_, START: Union[bool, int] = None):
         InlineKeyboardButton(
             text=_["BACK_BUTTON"], callback_data="Miko_back"
         ),
-        InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"], callback_data="Miko_back"
-        ),
+        
     ]
     mark = second if START else first
     return InlineKeyboardMarkup(
