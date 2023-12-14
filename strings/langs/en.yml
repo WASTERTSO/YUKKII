@@ -249,7 +249,7 @@ stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️
 #General Buttons
 CLOSE_BUTTON  : "ᴄʟᴏsᴇ 🚫"
 CLOSEMENU_BUTTON  : "ᴄʟᴏsᴇ 🚫"
-BACK_BUTTON : "ʙᴀᴄᴋ ⬅️"
+BACK_BUTTON : "◁"
 UNBAN_BUTTON : "ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ ✅"
 
 #Lyrics
