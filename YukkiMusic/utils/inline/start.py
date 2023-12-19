@@ -20,10 +20,10 @@ def start_pannel(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_1"],
-                callback_data="Miko_back"
+                callback_data="help_back"
             ),
             InlineKeyboardButton(
-                text=_["S_B_2"], callback_data="Miko_back"
+                text=_["S_B_2"], callback_data="help_back"
             ),
         ],
     ]
@@ -97,7 +97,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons.append(
         [
             InlineKeyboardButton(
-                text=_["S_B_8"], callback_data="Miko_back"
+                text=_["S_B_8"], callback_data="help_back"
                 
             )
         ]
