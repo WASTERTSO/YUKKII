@@ -21,7 +21,7 @@ def help_pannel(_, START: Union[bool, int] = None):
     ]
     second = [
         InlineKeyboardButton(
-            text=_["BACK_BUTTON"], callback_data="help_back"
+            text=_["BACK_BUTTON"], callback_data="fallen_back"
         ),
         
     ]
